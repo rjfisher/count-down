@@ -129,11 +129,13 @@ form.signup input.form-control:focus {
 /* wrapper */
 
 #wrapper {
-	background: url(../images/main-bg.jpg);
+	background: url(../images/main-bg-1.jpg);
   background-size: cover;
   height: 100%;
   padding: 5% 0 5% 0;
   text-align: center;
+  -webkit-transition: background-image 1.0s ease-in-out;
+  transition: background-image 1.0s ease-in-out;
 }
 
 
